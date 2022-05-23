@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: "ubuntu";
+  overflow-x: hidden;
+}
+
+.row *{
+  overflow: hidden;
+}
+
+.navbar {
+  border-bottom: 0.2em solid rgb(87, 87, 228);
+  -webkit-box-shadow: 0px 0px 7px 0px rgb(87, 87, 228);
+  box-shadow: 0px 0px 7px 0px rgb(87, 87, 228);
+  padding-right: 5%;
+  padding-left: 2%;
+  position: fixed;
+  top: 0%;
+  font-family: "ubuntu", sans-serif;
+  font-size: 1.15em;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  color: #1a1b28;
+  overflow: hidden;
+}
+
+.navbar-brand > img {
+  width: 5vw;
+  height: auto;
+  min-width: 65px;
+  padding: 0%;
+}
+
+.navbar-nav {
+  margin-left: 5%;
+  overflow: hidden;
+}
+
+.navbar-nav .nav-item {
+  transition: all 0.2s;
+  padding-left: 2em;
+  overflow: hidden;
+}
+
+.navbar-nav .nav-item:hover {
+  letter-spacing: 0.5em;
+}
+
+.d-flex .btn {
+  letter-spacing: 0.15em;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.btn > a{
+  color: darkgreen;
+  text-decoration: none;
+}
+
+.btn:hover > a{
+  color: white;
+}
+
+.wrapper{
+  padding-top: 50px;
+}
+
+.col-lg-4 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.carousel{
+    height: 76vh;
+    overflow: hidden;
+}
+
+.carousel-inner img{
+    width: 100vw;
+    height: 76vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.col-lg-4{
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.img-thumbnail{
+    height: 100%;
+    aspect-ratio: 4/4;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.img-thumbnail img{
+    object-fit: cover;
+}
+
+.footer {
+  width: 100vw;
+  background-color: rgb(38, 60, 106);
+  overflow: hidden;
+}
+
+.footer-row {
+  width: 100vw;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #d0edf3;
+  padding-bottom: 5vh;
+  overflow: hidden;
+}
+
+.f {
+  padding-top: 7vh;
+}
+
+.f-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  overflow: hidden;
+}
+
+.f-logo > img {
+  width: 25vw;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(31, 47, 66);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(56, 85, 120);
+}
